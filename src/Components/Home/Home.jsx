@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Home.css";
+import { Navibar } from '../../Common/Common';
 import { Row, Col, Button, Container, Card } from 'react-bootstrap';
 import Products from "../../Assets/Data/Products";
 import hero from "../../Assets/Images/hero.png";
@@ -16,7 +17,7 @@ const Home = () => {
   const handleIncreaseQuantity = () => {
     setCounter(prev => prev + 1);
   };
-  
+
   const handleDecreaseQuantity = () => {
     if (counter > 1) {
       setCounter(prev => prev - 1);
@@ -24,6 +25,7 @@ const Home = () => {
   };
   return (
     <>
+      <Navibar />
       <Row style={{ height: "calc(100vh - 70px)", background: "#dadada" }}>
         <Col>
           <div>
@@ -109,9 +111,9 @@ const Home = () => {
         ))}
       </Row>
       <Row>
-          <Col xs={12}md={4}><img className='img-fluid' src={brand1} alt="brand1" /></Col>
-          <Col xs={12}md={4}><img className='img-fluid' src={brand2} alt="brand2" /></Col>
-          <Col xs={12}md={4}><img className='img-fluid' src={brand3} alt="brand3" /></Col>
+        <Col xs={12} md={4}><img className='img-fluid' src={brand1} alt="brand1" /></Col>
+        <Col xs={12} md={4}><img className='img-fluid' src={brand2} alt="brand2" /></Col>
+        <Col xs={12} md={4}><img className='img-fluid' src={brand3} alt="brand3" /></Col>
       </Row>
       <Row className='ps-5 pe-5 d-flex align-items-center flex-nowrap' style={{ overflowX: "scroll", height: "550px" }}>
         {Products.map((items) => (
@@ -136,31 +138,17 @@ const Home = () => {
       </Row>
       <Row>
         <Col xs={12} md={9}>
-        <Row>
-          <Col>
-          <img className='img-fluid' src={brand1} alt="grids" />
-          </Col>
-          <Col>
-          <img className='img-fluid' src={brand1} alt="grids" />
-          </Col>
-          <Col>
-          <img className='img-fluid' src={brand1} alt="grids" />
-          </Col>
-          <Row>
-          <Col>
-          <img className='img-fluid' src={brand1} alt="grids" />
-          </Col>
-          <Col>
-          <img className='img-fluid' src={brand1} alt="grids" />
-          </Col>
-          <Col>
-          <img className='img-fluid' src={brand1} alt="grids" />
-          </Col>
-          </Row>
-        </Row>
+          <div className="grid">
+            <img className='grid-child' src={brand2} alt="dsa" />
+            <img className='grid-child' src={brand2} alt="kj" />
+            <img className='grid-child' src={brand2} alt="ljh" />
+            <img className='grid-child' src={brand2} alt="lkjh" />
+            <img className='grid-child' src={brand2} alt="jgf" />
+            <img className='grid-child' src={brand2} alt="gfd" />
+          </div>
         </Col>
         <Col xs={12} md={3}>
-          <img className='img-fluid' src={brand2} alt="asd" />
+          <img className='grid-child' src={brand1} alt="ddsfd" />
         </Col>
       </Row>
     </>

@@ -1,0 +1,14 @@
+.navibar :hover{
+    background: white;
+    transition: all 0.5s ease-out;
+}
+.navibar{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+ul li:hover{
+    background: #f8f1f4;
+
+}
