@@ -1,12 +1,113 @@
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .row{
     padding-right: 0 !important;
     padding-left: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-.card:hover .card-body{
-    transform: translate3d(0, -6rem, 0);
+
+.hero{
+  background: url(./hero.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
+
+
+
+
+
+
+.card:hover .card-body{
+    transform: translate3d(0, -3rem, 0);
+    background: white;
+    transition: all 0.3s ease-in;
+}
+.plush{
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(174,142,128,1) 100%);
+height: 600px;
+background-position: bottom right;
+}
+
+.virtual{
+  background: url(./hero.png);
+}
+.virtual div p{
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.brand-1{
+  position:relative;
+}
+.brand-1::before{
+  content: "KYLIE COSMETICS";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  width: 1rem;
+}
+.brand-2::before{
+  content: "KYLIE SKIN";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  width: 1rem;
+}
+.brand-3::before{
+  content: "KYLIE BABY";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  width: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .grid-container {
     display: grid !important;
@@ -20,7 +121,6 @@
     grid-template-rows: repeat(2, 300px); /* 2 rows with a fixed height of 150px */
     gap: 10px; /* Gap between grid items */
   }
-  
   .grid-child {
     width: 100%;
     height: 100%;

@@ -5,7 +5,7 @@ const Navibar = () => {
   return (
     <>
       <Navbar expand="md" className="bg-body-tertiary p-0 navibar">
-        <Container fluid style={{ maxHeight: "70px", background: "#dadada" }}>
+        <Container className='p-0' fluid style={{ maxHeight: "70px", background: "#dadada" }}>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-md-md`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-md-md`}
@@ -18,7 +18,7 @@ const Navibar = () => {
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-between flex-grow-1 pe-3">
+              <Nav className="justify-content-between flex-grow-1 ps-3 pe-3">
                 <div className='d-flex justify-content-evenly align-items-center  '>
                   <Nav.Link href="#">kylie cosmetics</Nav.Link>
                   <Nav.Link href="#">kylie skin</Nav.Link>
@@ -27,7 +27,7 @@ const Navibar = () => {
                   <Nav.Link href="#">rewards</Nav.Link>
                 </div>
                 <Navbar.Brand className='d-flex flex-column flex-end' href="#home">
-                  <p>
+                  <p className=' p-0 m-0'>
                   <h6>KYLIE COSMETICS</h6>
                   <h6 className='text-small'>BY KYLIE JENNER</h6>
                   </p>
@@ -42,8 +42,8 @@ const Navibar = () => {
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
-          <Navbar.Brand className='d-lg-none' href="#home">
-                  <p>
+          <Navbar.Brand className='d-lg-none p-0 m-0' href="#home">
+                  <p className='p-0 m-0'>
                   <h6>KYLIE COSMETICS</h6>
                   <h6 className='text-small'>BY KYLIE JENNER</h6>
                   </p>

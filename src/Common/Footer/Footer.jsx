@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <Container className='d-flex justify-content-center mt-5'>
+      <Container className='d-flex justify-content-center mt-5 pt-5'>
         <Col xs={12} md={6} className='d-flex flex-column align-items-center gap-5'>
           <Row className='d-flex flex-column gap-2 w-100'>
             <label htmlFor="email">sign up for updates:</label>
@@ -31,7 +31,7 @@ const Footer = () => {
             </ul>
           </Row>
           <Row>
-            <ul style={{whiteSpace:"nowrap"}} className='d-flex justify-content-evenly list-unstyled gap-5'>
+            <ul className='d-flex justify-content-evenly flex-wrap list-unstyled gap-5'>
               <li><a href="/">privacy policy</a></li>
               <li><a href="/">terms</a></li>
               <li><a href="/">accessibility</a></li>
