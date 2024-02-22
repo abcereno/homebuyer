@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homebuyer/static/css/main.abb2c816.css",
-    "main.js": "/homebuyer/static/js/main.7050acce.js",
+    "main.css": "/homebuyer/static/css/main.1d76d548.css",
+    "main.js": "/homebuyer/static/js/main.38573f58.js",
     "static/js/453.5aaa0d0c.chunk.js": "/homebuyer/static/js/453.5aaa0d0c.chunk.js",
     "static/media/hero.png": "/homebuyer/static/media/hero.b6a54ae47fa5445298ca.png",
     "static/media/second.png": "/homebuyer/static/media/second.21822d87cf5754761907.png",
@@ -12,12 +12,12 @@
     "static/media/brand1.png": "/homebuyer/static/media/brand1.d04a3fd33b494e8edbd5.png",
     "static/media/first.png": "/homebuyer/static/media/first.1a5753030d1bb6534f19.png",
     "index.html": "/homebuyer/index.html",
-    "main.abb2c816.css.map": "/homebuyer/static/css/main.abb2c816.css.map",
-    "main.7050acce.js.map": "/homebuyer/static/js/main.7050acce.js.map",
+    "main.1d76d548.css.map": "/homebuyer/static/css/main.1d76d548.css.map",
+    "main.38573f58.js.map": "/homebuyer/static/js/main.38573f58.js.map",
     "453.5aaa0d0c.chunk.js.map": "/homebuyer/static/js/453.5aaa0d0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abb2c816.css",
-    "static/js/main.7050acce.js"
+    "static/css/main.1d76d548.css",
+    "static/js/main.38573f58.js"
   ]
 }
